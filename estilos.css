@@ -12,12 +12,12 @@
 
 body
 {
-	font-size:16px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'robotothin';
+	font-size: 16px;
+	background: #EEEEEE;
 	
-
 }
-header 
+header
 {
 	box-shadow: rgba(0,0,0,0.7) 0px 8px 7px;
 	background: #2b2a2a;
@@ -26,26 +26,40 @@ header
 	position: absolute;
 	width: 100%;
 	height: 10em;
+
+	/*position: absolute;
+	background: #2b2a2a;
+	padding: 2em;
+	overflow: hidden;*/
 }
-figure
+
+#yo
 {
 	float: left;
 }
-figure img
+div 
 {
 	width: 100px;
-	margin-left: 1.5px;
-}
+	height: 100px;
+	background-image: url('imagenes/acerca de mi.png');
+	background-size: 100px;
+	background-repeat: no-repeat;
 
-nav ul li a
-{
-	color: white;
-	font-weight: lighter;
-	font-size: 1.2em;	
 }
-nav ul li a
+header #yo:hover
 {
-	text-decoration: none;
+	background-image: url('imagenes/ilustracion.png');
+	background-size: 100px;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	-webkit-transition:1s;
+}
+nav
+{
+	position: relative;
+	display: inline-block;
+	font-family: "Roboto";
 }
 nav ul li
 {
@@ -53,42 +67,12 @@ nav ul li
 	margin-right: 10em;
 	margin-left: 1.1em;
 }
-nav ul
+nav ul li a
 {
-	list-style: none;
-	
-
-}
-nav
-{
-	position: relative;
-}
-header #yo img:hover
-{
-	border:solid 1px red;
-}
-#yo 
-{
-	margin-right: 8em;
-	margin-left: 4em
-}
-
-#web
-{
-	margin-right: 8.5em;
-
-}
-#ilustracion
-{
-	margin-right: 7em;
-}
-#impresos
-{
-	margin-right: 8em;
-}
-#contacto
-{
-	margin-left: 2.1em;
+	color: white;
+	font-weight: lighter;
+	font-size: 1.2em;
+	text-decoration: none;	
 }
 ul li #contacto_text:hover
 {
@@ -125,7 +109,7 @@ ul li #web_text
 {
 	color: #74c600;
 	margin-left: -0.6em;
-	
+
 	/*padding-top: 6em;*/
 }
 ul li #impresos_text:hover
@@ -137,8 +121,4 @@ ul li #impresos_text
 	margin-left: -0.3em;
 	color: #a82df7;
 	color: #a82df7;
-}
-section
-{
-	background: red;
 }
