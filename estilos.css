@@ -17,7 +17,7 @@ body
 	background: #EEEEEE;
 	
 }
-header
+#barraheader
 {
 	box-shadow: rgba(0,0,0,0.7) 0px 8px 7px;
 	background: #2b2a2a;
@@ -27,16 +27,34 @@ header
 	width: 100%;
 	height: 10em;
 
+}
+#contenido_header
+{
+	
+	
+	height: 10em;
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+header
+{
+	/*box-shadow: rgba(0,0,0,0.7) 0px 8px 7px;
+	background: #2b2a2a;*/
+	padding: 1em;
+	overflow: hidden;
+	position: absolute;
 	/*position: absolute;
 	background: #2b2a2a;
 	padding: 2em;
 	overflow: hidden;*/
 }
-
+/*
 #yo
 {
 	float: left;
 }
+
 div 
 {
 	width: 100px;
@@ -54,8 +72,141 @@ header #yo:hover
 	width: 100px;
 	height: 100px;
 	-webkit-transition:1s;
+}*/
+div #yo, #web, #ilustracion, #impresos, #contacto
+{
+	float: left;
+	margin-left: 3.8em;
+	 
 }
-nav
+header #yo:hover
+{
+	background-image: url('imagenes/acerca de mi_hover.png');
+	background-size: 105px;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	-webkit-transition:0.5s;
+}
+div #yo
+{
+	width: 100px;
+	height: 100px;
+	background-image: url("imagenes/acerca de mi.png");
+	background-size: 100px;
+	background-repeat: no-repeat;
+	-webkit-transition:0.5s;
+	
+
+}
+header #web:hover
+{
+	background-image: url('imagenes/web_hover.png');
+	background-size: 105px;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	-webkit-transition:0.5s;
+}
+div #web
+{
+	width: 100px;
+	height: 100px;
+	background-image: url("imagenes/web.png");
+	background-size: 91px;
+	background-repeat: no-repeat;
+	margin-left: 5.6em;
+	-webkit-transition:0.5s;
+
+}
+header #ilustracion:hover
+{
+	background-image: url('imagenes/ilustracion_hover.png');
+	background-size: 105px;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	-webkit-transition:0.5s;
+}
+div #ilustracion
+{
+	width: 100px;
+	height: 100px;
+	background-image: url("imagenes/ilustracion.png");
+	background-size: 100px;
+	background-repeat: no-repeat;
+	margin-left: 5em;
+	-webkit-transition:0.5s;
+}
+header #impresos:hover
+{
+	background-image: url('imagenes/impresos_hover.png');
+	background-size: 105px;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	-webkit-transition:0.5s;
+}
+div #impresos
+{
+	width: 100px;
+	height: 100px;
+	background-image: url("imagenes/impresos.png");
+	background-size: 100px;
+	background-repeat: no-repeat;
+	margin-left: 4.4em;
+	-webkit-transition:0.5s;
+}
+header #contacto:hover
+{
+	background-image: url('imagenes/contacto_hover.png');
+	background-size: 105px;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	-webkit-transition:0.5s;
+}
+div #contacto
+{
+	width: 100px;
+	height: 100px;
+	background-image: url("imagenes/contacto.png");
+	background-size: 100px;
+	background-repeat: no-repeat;
+	margin-left: 4em;
+	-webkit-transition:0.5s;
+}
+nav a 
+{
+	font-family: "roboto";
+	font-size:1em;
+	color: white;
+	font-weight: lighter;
+	text-decoration: none;
+
+
+}
+ul
+{
+	list-style: none;
+}
+ul li
+{
+	display: inline-block;
+	margin-right: 5em;
+	margin-left: 1.3em;
+}
+/*ul li #contacto_text
+{
+	margin-left: 1em;
+}
+*/
+
+
+
+
+
+/*nav
 {
 	position: relative;
 	display: inline-block;
@@ -81,7 +232,7 @@ ul li #contacto_text:hover
 ul li #contacto_text
 {
 	color:#e02f2f;
-	margin-left: 56.3em;
+	margin-left: 10em;
 	float: right;
 	margin-top: -2em;
 }
@@ -108,9 +259,10 @@ ul li #web_text:hover
 ul li #web_text
 {
 	color: #74c600;
-	margin-left: -0.6em;
+	margin-left: -0.em;
 
 	/*padding-top: 6em;*/
+	/*
 }
 ul li #impresos_text:hover
 {
@@ -122,3 +274,4 @@ ul li #impresos_text
 	color: #a82df7;
 	color: #a82df7;
 }
+*/
