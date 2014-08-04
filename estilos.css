@@ -9,7 +9,10 @@
     font-style: normal;
 
 }*/
-
+a
+{
+	outline: 0;
+}
 body
 {
 	font-family: 'robotothin';
@@ -86,7 +89,7 @@ div #yo, #web, #ilustracion, #impresos, #contacto
 }
 header #yo:hover
 {
-	background-image: url('imagenes/acerca de mi_hover.png');
+	background-image: url('imagenes/acerca de mi.png');
 	background-size: 105px;
 	background-repeat: no-repeat;
 	width: 100px;
@@ -97,7 +100,7 @@ div #yo
 {
 	width: 100px;
 	height: 100px;
-	background-image: url("imagenes/acerca de mi.png");
+	background-image: url("imagenes/acerca de mi 02.png");
 	background-size: 100px;
 	background-repeat: no-repeat;
 	-webkit-transition:0.5s;
@@ -117,8 +120,8 @@ div #web
 {
 	width: 100px;
 	height: 100px;
-	background-image: url("imagenes/web.png");
-	background-size: 91px;
+	background-image: url("imagenes/web02.png");
+	background-size: 100px;
 	background-repeat: no-repeat;
 	margin-left: 5.6em;
 	-webkit-transition:0.5s;
@@ -137,7 +140,7 @@ div #ilustracion
 {
 	width: 100px;
 	height: 100px;
-	background-image: url("imagenes/ilustracion.png");
+	background-image: url("imagenes/ilustracion02.png");
 	background-size: 100px;
 	background-repeat: no-repeat;
 	margin-left: 5em;
@@ -156,7 +159,7 @@ div #impresos
 {
 	width: 100px;
 	height: 100px;
-	background-image: url("imagenes/impresos.png");
+	background-image: url("imagenes/impresos02.png");
 	background-size: 100px;
 	background-repeat: no-repeat;
 	margin-left: 4.4em;
@@ -164,7 +167,7 @@ div #impresos
 }
 header #contacto:hover
 {
-	background-image: url('imagenes/contacto_hover.png');
+	background-image: url('imagenes/contacto.png');
 	background-size: 105px;
 	background-repeat: no-repeat;
 	width: 100px;
@@ -175,7 +178,7 @@ div #contacto
 {
 	width: 100px;
 	height: 100px;
-	background-image: url("imagenes/contacto.png");
+	background-image: url("imagenes/contacto02.png");
 	background-size: 100px;
 	background-repeat: no-repeat;
 	margin-left: 4em;
@@ -226,8 +229,10 @@ h1
 	font-weight: 100;
 	font-family: 'roboto';
 	top: 2.9em;
-	right: 1.2em;
+	right: 1.7em;
 	font-size: 3.5em;
+	line-height: 1;
+	text-align: center;
 }
 article #perfil
 {
@@ -241,7 +246,8 @@ article #perfil
 	font-family: 'roboto';
 	font-weight: 100;
 	font-size: 1em;
-	text-align: justify;
+	text-align: center;
+	word-break: break-all;
 }
 #contenido_web
 {
