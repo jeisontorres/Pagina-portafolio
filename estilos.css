@@ -20,7 +20,7 @@ body
 #barraheader
 {
 	box-shadow: rgba(0,0,9,0.6) 0px 3px 3px;
-	background: #010101;
+	background: #000000;
 	padding: 0;
 	overflow: hidden;
 	position: absolute;
@@ -258,6 +258,32 @@ article #perfil
 article #img_web img
 {
 	width: 250px;
+}
+figure #icono_web
+{
+	
+	position: relative;
+	top:-9em;
+}
+h2
+{
+	font-family: 'roboto';
+	font-size: 3em;
+	font-weight: 200;
+	position: relative;
+	top: -9em;
+	right: -10em;
+	color: rgb(79, 79, 79);
+}
+article #parrafo_web
+{
+	font-family: 'roboto';
+	font-weight: 100;
+	position: relative;
+	top: -28em;
+	text-align: justify;
+	width: 36em;
+	left: 19em
 }
 /*ESTILOS NAV*/
 /*ul li #contacto_text
