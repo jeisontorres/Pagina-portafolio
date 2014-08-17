@@ -219,7 +219,7 @@ figure img
 {
 	width: 600px;
 	margin-top: 11em;
-	margin-left: -2em;
+	/*margin-left: -2em;*/
 	
 }
 h1
@@ -251,7 +251,7 @@ article #perfil
 }
 #contenido_web
 {
-	background: #EEEEEE;
+	
 	width: 100%;
 	height: 20em;
 	margin: 0;
@@ -295,7 +295,7 @@ article #parrafo_web
 
 #contenido_ilustracion
 {
-	background: #EEEEEE;
+	
 	width: 100%;
 	height: 20em;
 	margin: 0;
@@ -411,4 +411,54 @@ ul li #impresos_text
 	
 	color: #a82df7;
 	color: #a82df7;
+}
+/*MENU LATERAL*/
+#menu_lateral 
+{
+	width: 3.7em;
+	height: 3.7em;
+	border: 1px solid red;
+	float: left;
+	top: 20em;
+	position: fixed;
+}
+div #yo_lateral
+{
+	width: 4em;
+	height: 4em;
+	background-image: url('imagenes/acerca de mi 02.png');
+	background-size: 3.5em;
+	background-repeat: no-repeat;
+}
+div #web_lateral
+{
+	background-image: url("imagenes/web02.png");
+	width: 4em;
+	height: 4em;
+	background-size: 3.5em;
+	background-repeat: no-repeat;
+}
+div #ilustracion_lateral
+{
+	background-image: url("imagenes/ilustracion02.png");
+	width: 4em;
+	height: 4em;
+	background-size: 3.5em;
+	background-repeat: no-repeat;
+}
+div #impresos_lateral
+{
+	background-image: url("imagenes/impresos02.png");
+	width: 4em;
+	height: 4em;
+	background-size: 3.5em;
+	background-repeat: no-repeat;
+}
+div #contacto_lateral
+{
+	background-image: url("imagenes/contacto02.png");
+	width: 4em;
+	height: 4em;
+	background-size: 3.5em;
+	background-repeat: no-repeat;
 }
