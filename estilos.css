@@ -413,14 +413,16 @@ ul li #impresos_text
 	color: #a82df7;
 }
 /*MENU LATERAL*/
-#menu_lateral 
+
+section #menu_lateral 
 {
 	width: 3.7em;
 	height: 3.7em;
 	border: 1px solid red;
 	float: left;
-	top: 20em;
-	position: fixed;
+	top: 0em;
+	position: relative;
+	z-index: 1;
 }
 div #yo_lateral
 {
